@@ -1,0 +1,43 @@
+{
+  "definition": {
+    "properties": {
+      "name": {
+        "validation": {
+          "required": true
+        },
+        "type": "STRING"
+      },
+      "surname": {
+        "validation": {
+          "required": true
+        },
+        "type": "STRING"
+      },
+      "address": {
+        "validation": {
+          "required": true
+        },
+        "type": "STRING"
+      },
+      "position": {
+        "validation": {
+          "required": false
+        },
+        "type": "INTEGER"
+      },
+      "age": {
+        "validation": {
+          "required": true
+        },
+        "type": "INTEGER"
+      },
+      "employed": {
+        "type": "BOOLEAN",
+        "validation": {
+          "required": true
+        }
+      }
+    },
+    "type": "OBJECT"
+  }
+}
